@@ -18,7 +18,7 @@ app.use(bodyParser.json());
 //VARIABLES
 const PORT = process.env.PORT;
 const apikey=process.env.API_KEY
-const url =process.env.DATABASE_URL; 
+const url =`postgres://sngtvwgz:76YWEHqzxD29mTRfOTagDDsCiy0HpLRN@chunee.db.elephantsql.com/sngtvwgz`; 
 
 const client = new Client(url)
 //routes
